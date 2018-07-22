@@ -1,0 +1,16 @@
+{
+  "name": "switchmate",
+  "version": "1.0.0",
+  "description": "Simple web server to toggle switchmate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "discover": "node node_modules/node-switchmate3/bin/discover.switchmate3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "noble-device": "^1.4.1",
+    "node-switchmate3": "0.0.3",
+    "npm": "^6.2.0"
+  }
+}
